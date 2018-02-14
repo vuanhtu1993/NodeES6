@@ -21,7 +21,20 @@ let http = require('http');
 const port = 3001;
 // create server
 const server = http.createServer((request, response) => {
-    response.write('Welcome my first NodeJs app');
+    // Create information header response
+    response.writeHead(200, {
+        'Context-Type': 'text/html',
+        'Trailer': 'Content-MD5',
+    });
+    // Create content
+    response.write('Welcome my first NodeJs app \n');
+    const ipAddress = request.socket.remoteAddress;
+    response.write(`IP Address: ${ipAddress} \n`);
+    response.write(`IP Address: ${request.url} \n`);
+    const metaQuery = require('url').parse(request.url, true);
+    debugger;
+    response.write(`IP Address: ${JSON.stringify(metaQuery)} \n`);
+    // End request and execute return response
     response.end();
 }).listen(port);
 console.log(`server start on port: ${port}`);
