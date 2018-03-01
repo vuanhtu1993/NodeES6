@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+    function wait3s() {
+        let ms = 3000 + new Date().getTime();
+        while (new Date() < ms) {
+        }
+        console.log('finished wait3s');
+    }
+
+    function clickHandle() {
+        console.log('click event');
+    }
+
+    document.addEventListener('click', clickHandle);
+    setTimeout(() => {
+        console.log('setTimeout finished')
+    }, 1000);
+    wait3s();
+    console.log('finish all');
+</script>
+</html>
