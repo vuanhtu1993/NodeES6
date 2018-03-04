@@ -30,10 +30,9 @@ const server = http.createServer((request, response) => {
     response.write('Welcome my first NodeJs app \n');
     const ipAddress = request.socket.remoteAddress;
     response.write(`IP Address: ${ipAddress} \n`);
-    response.write(`IP Address: ${request.url} \n`);
-    const metaQuery = require('url').parse(request.url, true);
+    response.write(`Request url ${request.url}`);
+    response.write(`Request url ${require('url').parse(request.url, true)}`);
     debugger;
-    response.write(`IP Address: ${JSON.stringify(metaQuery)} \n`);
     // End request and execute return response
     response.end();
 }).listen(port);

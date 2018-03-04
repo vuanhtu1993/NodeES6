@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vuanhtu1993/NodeES6/issues"
   },
-  "homepage": "https://github.com/vuanhtu1993/NodeES6#readme"
+  "homepage": "https://github.com/vuanhtu1993/NodeES6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
