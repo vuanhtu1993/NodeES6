@@ -1,16 +1,17 @@
-// Working with file
-let fileManage = require('./fileManage')
-const fileName = __dirname + '/../data/temp.txt';
-fileManage.createNewFile(fileName);
-let jsonObject = {
-    food: [
-        {name: 'sushi', country: 'Japan'},
-        {name: 'pho', country: 'VietNam'},
-        {name: 'kimchi', country: 'Korea'},
-        {name: 'hamberger', country: 'US'},
-    ],
-    restaurant: 'AnnMii',
-};
+// Working with event
+const EventEmitter = require('events');
+class Customer extends EventEmitter{
+    constructor(name, gender) {
+        super();
+        this.name = name;
+        this.gender = gender;
+    }
+}
+const customer1 = new Customer('AnhTus', 'male');
+customer1.on('orderFood', (foods) => {
+    foods.forEach((food) => {
+        console.log(`${customer1.name} order ${food}`);
+    })
+});
 
-fileManage.saveDataToFile(jsonObject, fileName);
-fileManage.readDataFromFile(fileName);
+customer1.emit('orderFood', ['Pho', 'Sushi']);
