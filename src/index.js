@@ -8,10 +8,11 @@ class Customer extends EventEmitter{
     }
 }
 const customer1 = new Customer('AnhTus', 'male');
-customer1.on('orderFood', (foods) => {
+function orderCB(customer, foods) {
     foods.forEach((food) => {
-        console.log(`${customer1.name} order ${food}`);
+        console.log(`${customer.name} order ${food}`)
     })
-});
+}
+customer1.on('orderFood', orderCB);
 
-customer1.emit('orderFood', ['Pho', 'Sushi']);
+customer1.emit('orderFood', customer1, ['Pho', 'Sushi']);
