@@ -32,8 +32,10 @@ const server = http.createServer((request, response) => {
     response.write(`IP Address: ${ipAddress} \n`);
     response.write(`Request url ${request.url}`);
     response.write(`Request url ${require('url').parse(request.url, true)}`);
+    response.write(`Request url ${require('url').parse(request.url, true)}`);
     debugger;
     // End request and execute return response
     response.end();
 }).listen(port);
 console.log(`server start on port: ${port}`);
+console.log(`Server start successfully`);
