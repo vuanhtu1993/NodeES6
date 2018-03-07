@@ -12,7 +12,13 @@ function Person(name) {
         alert('Hi! I\'m ' + this.name + '.');
     };
 }
-// ENCAPSULATION:
+// ENCAPSULATION: be reveal by module design pattern
+    let Encapsulation = (function () {
+        // declare private variable and function
+        return {
+            // declaration public variable and closure function
+        }
+    })();
 // Implementation of Combination Constructor/Prototype Pattern
 function User(name, email) {
     // this => {}
