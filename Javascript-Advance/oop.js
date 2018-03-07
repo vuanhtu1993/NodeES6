@@ -15,10 +15,13 @@ function Person(name) {
 // ENCAPSULATION:
 // Implementation of Combination Constructor/Prototype Pattern
 function User(name, email) {
+    // this => {}
     this.name  = name;
     this.email = email;
     this.score = [];
     this.currentScore = 0;
+
+    return this;
 }
 User.prototype = {
     // The one disadvantage of overwriting the prototype is that the constructor
@@ -37,6 +40,6 @@ User.prototype = {
         console.log('Email has changed !');
     }
 };
-let user  = new User();
-user.constructor('AnhTus', 'vuanhtu1993');
-console.log(user);
+
+
+
