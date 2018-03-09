@@ -6,6 +6,8 @@
 // ABSTRACTION : Defined a class based on The constructor function (not return anything)
 // is JavaScript's version of a class
 // Alternative: use prototype pattern to create property and method for class
+
+// PHẢI CÓ TỪ KHÓA THIS (ĐỂ THIS TRỎ VÀO OBJECT GỌI THUỘC TÍNH VÀ PHƯƠNG THÚC ĐÓ)
 function Person(name) {
     this.name = name;
     this.greeting = function() {
