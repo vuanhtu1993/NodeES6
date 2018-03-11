@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58e29f4f-d6da-45ea-9b5f-0c0a81a7a26a" name="Default" comment="Refactor all file">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/JS-DesignPattern.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/callback.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/closure.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/extend.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/oop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myExpress/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myExpress/bin/www" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myExpress/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myExpress/public/stylesheets/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myExpress/routes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myExpress/routes/users.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myExpress/views/error.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myExpress/views/index.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/understandingJS/Express&amp;StatementFunc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/understandingJS/byValue-byReference.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/understandingJS/this.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="58e29f4f-d6da-45ea-9b5f-0c0a81a7a26a" name="Default" comment="delete some file not involve NodeJS">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/NodeES6.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/temp.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="20">
+              <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -60,7 +50,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ajax</find>
-      <find>ajax</find>
+      <find>node</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,6 +81,7 @@
         <option value="$PROJECT_DIR$/Javascript-Advance/callback.js" />
         <option value="$PROJECT_DIR$/Javascript-Advance/promise.js" />
         <option value="$PROJECT_DIR$/understandingJS/this.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -153,16 +144,6 @@
             <path>
               <item name="NodeES6" type="b2602c69:ProjectViewProjectNode" />
               <item name="NodeES6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NodeES6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NodeES6" type="462c0819:PsiDirectoryNode" />
-              <item name="shape" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NodeES6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NodeES6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,7 +233,7 @@
       <workItem from="1520501990699" duration="1285000" />
       <workItem from="1520530552002" duration="2829000" />
       <workItem from="1520560103795" duration="10018000" />
-      <workItem from="1520759115973" duration="274000" />
+      <workItem from="1520759115973" duration="2896000" />
     </task>
     <task id="LOCAL-00001" summary="1. exports.function public this function&#10;2. module.exports Consider a file as one module and public thís module">
       <created>1518417923307</created>
@@ -394,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520759222163</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="delete some file not involve NodeJS">
+      <created>1520759438647</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1520759438647</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82692000" />
+    <option name="totallyTimeSpent" value="85314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -475,20 +463,14 @@
     <MESSAGE value="Understanding the profit of promise" />
     <MESSAGE value="Confusing about concept of class in JS" />
     <MESSAGE value="Refactor all file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor all file" />
+    <MESSAGE value="delete some file not involve NodeJS" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete some file not involve NodeJS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3820">
@@ -786,6 +768,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -794,10 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="20">
+          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
           <folding />
         </state>
       </provider>
