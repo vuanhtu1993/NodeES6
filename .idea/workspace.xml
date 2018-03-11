@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e29f4f-d6da-45ea-9b5f-0c0a81a7a26a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/JS-DesignPattern.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/callback.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/closure.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/extend.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/oop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Javascript-Advance/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/understandingJS/Express&amp;StatementFunc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/understandingJS/byValue-byReference.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/understandingJS/this.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,6 +63,7 @@
         <option value="$PROJECT_DIR$/Javascript-Advance/promise.js" />
         <option value="$PROJECT_DIR$/understandingJS/this.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/myExpress/.gitignore" />
       </list>
     </option>
   </component>
@@ -111,6 +123,11 @@
             <path>
               <item name="NodeES6" type="b2602c69:ProjectViewProjectNode" />
               <item name="NodeES6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NodeES6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NodeES6" type="462c0819:PsiDirectoryNode" />
+              <item name="myExpress" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,7 +217,7 @@
       <workItem from="1520501990699" duration="1285000" />
       <workItem from="1520530552002" duration="2829000" />
       <workItem from="1520560103795" duration="10018000" />
-      <workItem from="1520759115973" duration="4435000" />
+      <workItem from="1520759115973" duration="5431000" />
     </task>
     <task id="LOCAL-00001" summary="1. exports.function public this function&#10;2. module.exports Consider a file as one module and public thís module">
       <created>1518417923307</created>
@@ -367,7 +384,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86853000" />
+    <option name="totallyTimeSpent" value="87849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -453,13 +470,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3820">
-          <caret line="191" column="40" lean-forward="false" selection-start-line="191" selection-start-column="33" selection-end-line="191" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shape/rectangle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -770,6 +780,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myExpress/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding />
         </state>
       </provider>
