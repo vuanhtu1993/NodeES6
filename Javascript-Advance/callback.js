@@ -18,14 +18,10 @@ function callBackFinish(arg) {
 higherOrder('function', callBackFinish, function () {
     console.log('finish all');
 });
+// Callback LINQ
+arr = [1,2,3];
+arr.map((value) => console.log(value));
 
-// Understanding Promise
-let promise = new Promise((resolve, reject) => {
-    setTimeout(() => {
-        resolve('data from promise');
-    }, 200);
-});
+Array.prototype.map2 = function (value) {
 
-promise.then((value) => {
-    console.log(value);
-});
+};
