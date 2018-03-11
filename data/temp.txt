@@ -1,1 +1,0 @@
-{"food":[{"name":"sushi","country":"Japan"},{"name":"pho","country":"VietNam"},{"name":"kimchi","country":"Korea"},{"name":"hamberger","country":"US"}],"restaurant":"AnnMii"}

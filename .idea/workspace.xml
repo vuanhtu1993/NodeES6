@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e29f4f-d6da-45ea-9b5f-0c0a81a7a26a" name="Default" comment="test gitignore">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/temp.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/shape/rectangle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fileManage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -67,9 +74,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-25" />
@@ -203,7 +207,7 @@
       <workItem from="1520501990699" duration="1285000" />
       <workItem from="1520530552002" duration="2829000" />
       <workItem from="1520560103795" duration="10018000" />
-      <workItem from="1520759115973" duration="3298000" />
+      <workItem from="1520759115973" duration="3526000" />
     </task>
     <task id="LOCAL-00001" summary="1. exports.function public this function&#10;2. module.exports Consider a file as one module and public thís module">
       <created>1518417923307</created>
@@ -363,7 +367,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85716000" />
+    <option name="totallyTimeSpent" value="85944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
